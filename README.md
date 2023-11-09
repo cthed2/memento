@@ -12,7 +12,7 @@ Requisitos previos: asegúrate de tener [Rust](https://www.rust-lang.org/tools/i
 
 ```sh
 git clone https://github.com/cthed2/memento.git
-cd <nombre-repo>
+cd memento 
 cargo build --release
 ```
 El ejecutable estará disponible en target/release/memento
@@ -27,6 +27,16 @@ Después de compilar el proyecto o descargar el binario, puedes usar la herramie
 
 ```sh
 ./memento ruta/al/archivo.md palabraclave1 palabraclave2
+```
+Nota: Recuerda que puedes buscar las palabras que quieras, en la salida solo aparecen las lineas que contienen las palabras que has buscado
+
+## Configuración para .zsh
+
+1. Abrimos .zshrc
+2. Agregamos un alias
+```
+alias memento=""
+
 ```
 
 # Contribuciones
