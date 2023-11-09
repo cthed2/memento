@@ -28,16 +28,29 @@ Después de compilar el proyecto o descargar el binario, puedes usar la herramie
 ```sh
 ./memento ruta/al/archivo.md palabraclave1 palabraclave2
 ```
-Nota: Recuerda que puedes buscar las palabras que quieras, en la salida solo aparecen las lineas que contienen las palabras que has buscado
+Nota: Recuerda que puedes buscar las palabras que quieras, en la salida solo aparecen las lineas que contienen las palabras que has buscado.
+
+Puedes descargar el archivo memento.md, en caso aún no tengas tu propio "cheat sheet".
 
 ## Configuración para .zsh
 
-1. Abrimos .zshrc
-2. Agregamos un alias
+1. El binario `memento` lo movemos a la ruta `/usr/local/bin/`
+```sh
+sudo mv memento /usr/local/bin/
 ```
-alias memento=""
-
+2. Le damos el permiso con:
+```sh
+sudo chmod 775 memento
 ```
+3. Abrimos .zshrc
+```
+sudo vim .zshrc
+```
+4. Agregamos un alias
+```
+alias memento='/usr/local/bin/memento ~/memento.md'
+```
+Nota: Recuerda que el archivo de texto memento.md lo ubicamos en /home/user/ . Si la ubicación de tu archivo de texto es diferente recuerda cambiar la ruta.
 
 # Contribuciones
 
