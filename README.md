@@ -19,7 +19,7 @@ El ejecutable estará disponible en target/release/memento
 
 ### Descargar binario
 
-Si prefieres no compilar el código fuente, puedes descargar el binario más reciente desde la sección (Releases)[https://github.com/cthed2/memento/releases/tag/v1.0.0] en la página del repositorio de GitHub.
+Si prefieres no compilar el código fuente, puedes descargar el binario más reciente desde la sección [Releases](https://github.com/cthed2/memento/releases/tag/v1.0.0) en la página del repositorio de GitHub.
 
 # Uso
 
@@ -35,7 +35,7 @@ Las contribuciones son bienvenidas. Por favor, haz un fork del repositorio, crea
 
 # Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ve el archivo LICENSE.md para detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ve el archivo [LICENSE.txt](https://github.com/cthed2/memento/blob/master/LICENSE.txt) para detalles.
 
 Este archivo README proporciona una visión general clara de lo que hace la herramienta, cómo se instala y se utiliza, cómo otros pueden contribuir al proyecto y la licencia bajo la cual se distribuye. 
 
