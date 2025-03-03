@@ -1,6 +1,6 @@
 [package]
-name = "mementoh"
-version = "0.1.0"
+name = "memento"
+version = "0.3.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -9,3 +9,4 @@ edition = "2021"
 unidecode = "0.3.0"
 regex = "1.10.1"
 ansi_term = "0.12.1"
+clap = "2.33.3"
